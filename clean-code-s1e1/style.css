@@ -1,27 +1,27 @@
 /* Basic Style */
-body {
+.body-container {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.container-img-link {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.container-img-link img {
   width: 100%;
 }
 
-.aaa .more-inf {
+.container-img-link .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa {
+  .container-img-link {
     text-align: center;
   }
 }
@@ -42,13 +42,13 @@ body {
   display: flex;
 }
 
-ul {
+.list-tasks {
   margin: 0;
   padding: 0px;
 }
 
-li,
-h3 {
+.list-tasks,
+.header-todo {
   list-style: none;
 }
 
